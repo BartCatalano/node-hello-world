@@ -1,6 +1,8 @@
-const arg = (process.argv[2]);
+const arg = process.argv.slice(2);
 const saluto = (`Hello ${arg}`);
 console.log(saluto);
+console.log(arg);
+
 
 
 
