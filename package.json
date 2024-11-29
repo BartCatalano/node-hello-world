@@ -12,5 +12,8 @@
     "url": "node-hello-world"
   },
   "author": "Bartolomeo Catalano",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "chalk": "^5.3.0"
+  }
 }
